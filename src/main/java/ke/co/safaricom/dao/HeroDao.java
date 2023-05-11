@@ -1,9 +1,18 @@
 package ke.co.safaricom.dao;
 
-import ke.co.safaricom.config.DatabaseConfig;
-import org.sql2o:sql2o;
 
-public class HeroDao {
-    private static sql2o sql2o = DatabaseConfig.getDatabaseObject();
+import models.Hero;
+import org.sql2o.*;
+import java.util.ArrayList;
+import java.util.List;
 
-}
+
+//public class HeroDao {
+   // private static void createNewHero(Hero hero){
+
+
+
+
+
+
+

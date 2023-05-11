@@ -1,17 +1,18 @@
 package ke.co.safaricom.config;
 
-import org.Sql2o.sql2o;
+
+import org.sql2o.Sql2o;
 
 public class DatabaseConfig {
-    private String DB_URL ="//jdbc:postgresql://host/port/database";
+    private final static String DB_URL = "//jdbc:postgresql://localhost:5433/main";
 
-    private String DB_USER = "";
+    private final static String DB_USER = "postgres";
 
-    private String DB_PASS = "";
+    private final static String DB_PASS = "null";
 
-    private Sql2o sql2o = new Sql2o(this.DB_URL, DB_USER, DB_PASS);
+    private final static Sql2o sql2o = new Sql2o(DB_URL, DB_USER, DB_PASS);
 
-    public static Sql2o getDatabaseObject(){
+    public static Sql2o getDatabaseObject() {
         return DatabaseConfig.sql2o;
-    }
-}
+    }}
+
