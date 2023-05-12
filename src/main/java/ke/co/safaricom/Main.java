@@ -18,7 +18,7 @@ public class Main {
 
         get("/", (req,res)->{
             Map<String,Object> model = new HashMap<String, Object>();
-             model.put("template", "templates/home.hbs");
+             model.put("template", "templates/index.hbs");
              return new ModelAndView(model,layout);
          }, new HandlebarsTemplateEngine());
 

@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a978120c-388f-4b7d-b7e2-8b9ee757583d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Hero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/templates/squad-form.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/templates/squad.success.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ke/co/safaricom/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ke/co/safaricom/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ke/co/safaricom/config/DatabaseConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ke/co/safaricom/config/DatabaseConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ke/co/safaricom/dao/HeroDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ke/co/safaricom/dao/HeroDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/public/templates/home.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/templates/home.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/public/templates/layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/templates/layout.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
