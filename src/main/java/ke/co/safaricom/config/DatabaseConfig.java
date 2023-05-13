@@ -14,5 +14,6 @@ public class DatabaseConfig {
 
     public static Sql2o getDatabaseObject() {
         return DatabaseConfig.sql2o;
+
     }}
 

@@ -7,8 +7,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-//public class HeroDao {
-   // private static void createNewHero(Hero hero){
+public class HeroDao {
+
+    private static void createNewHero(Hero hero){
+    }}
 
 
 

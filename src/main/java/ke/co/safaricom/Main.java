@@ -27,6 +27,7 @@ public class Main {
             Map<String,Object> model = new HashMap<String, Object>();
             model.put("template", "templates/squad-form.hbs");
             return new ModelAndView(model,layout);
+
           },new HandlebarsTemplateEngine());
 
 
