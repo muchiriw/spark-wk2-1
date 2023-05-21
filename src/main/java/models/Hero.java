@@ -26,5 +26,8 @@ public class Hero {
         this.weakness = weakness;
         System.out.println(weakness);
 
-    }}
+    }
+
+
+}
 
