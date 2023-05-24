@@ -25,8 +25,6 @@ public class Squad {
 
     // Create get methods
     public int getMaxSize() {
-
-
         return maxSize;
     }
 

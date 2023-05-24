@@ -67,7 +67,7 @@ public class App {
             ArrayList<Squad> squads = Squad.getAll();
             model.put("squads", squads);
             for (Hero hero : heroes) {
-                int heroFindId = hero.getSquadId();
+                int heroFindId = hero.getId();
                 Squad squad = Squad.findById(heroFindId);
                 model.put("squad", squad);
             }
@@ -79,7 +79,7 @@ public class App {
             Map<String, Object> model = new HashMap<>();
             int idOfHeroToFind = Integer.parseInt(request.params("id"));
             Hero foundHero = Hero.findById(idOfHeroToFind);
-            int squadId = foundHero.getSquadId();
+            int squadId = foundHero.getId();
             Squad squad = Squad.findById(squadId);
             ArrayList<Hero> heroes = Hero.getAll();
             model.put("squad", squad);
